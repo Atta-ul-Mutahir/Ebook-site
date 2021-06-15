@@ -1,0 +1,421 @@
+/* width */
+
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 50px;
+}
+
+
+/* Track */
+
+ ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 50px;
+}
+
+
+/* Handle */
+
+ ::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0, .6);
+    border-radius: 50px;
+}
+
+
+/* Handle on hover */
+
+ ::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 0, 0, .7);
+    cursor: grab;
+}
+
+.admin {
+    font-family: Poppins;
+    background-color: #ecedf3;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.admin .btn {
+    background: #F75454;
+    border: #F75454 1.5px solid;
+    color: #ffffff;
+    border-radius: 30px;
+    width: 50%;
+    transition: .5s;
+}
+.btn-acpt
+{
+    color: #fff;
+    background-color: #5cb85c !important;
+    border-color: #4cae4c !important;
+    border-radius: 30px;
+    width: 50%;
+    transition: .5s;
+
+}
+.btn-acpt:hover
+{
+    background-color: green !important;
+
+}
+.admin .btn:hover {
+  color: white;
+    border: 1.5px solid #F75454;
+}
+
+.AuthPage {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url('https://image.freepik.com/free-photo/landscape-hills-cloudy-sky_130488-474.jpg');
+    background-size: cover;
+    animation: zoomInOut 20s linear infinite forwards alternate-reverse;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Poppins;
+}
+
+@keyframes zoomInOut {
+    50% {
+        background-size: 110% 110%;
+    }
+    100% {
+        background-size: 100% 100%;
+    }
+}
+
+.AuthPage .AuthForm {
+    width: 30%;
+    height: min-content;
+    background-color: rgb(0, 0, 0, .5);
+    border-radius: 20px;
+    color: #ffffff;
+    padding: 20px 30px;
+}
+
+.AuthPage .AuthForm .form-control {
+    background: none;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    padding: 8px 20px;
+    border: #ffffff 1.5px solid;
+    font-family: Poppins;
+}
+
+.AuthPage .AuthForm .form-control::placeholder {
+    color: rgb(255, 255, 255, .5);
+}
+
+.AuthPage .AuthForm .form-control:focus {
+    box-shadow: none;
+    border: 1.5px solid #F75454;
+}
+
+.AuthPage .AuthForm select option {
+    color: #000000;
+}
+
+.AuthPage .AuthForm .btn {
+    background: #F75454;
+    border: #F75454 1.5px solid;
+    color: #ffffff;
+    border-radius: 30px;
+    width: 50%;
+    transition: .5s;
+}
+
+.AuthPage .AuthForm .btn:hover {
+    background: none;
+    border: 1.5px solid #F75454;
+}
+
+@media only screen and (max-width: 768px) {
+    .AuthPage {
+        font-size: 16px;
+    }
+    .AuthPage .AuthForm {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .AuthPage {
+        font-size: 16px;
+    }
+    .AuthPage .AuthForm {
+        width: 90%;
+    }
+}
+
+.topBar {
+    width: 100%;
+    background-color: #F75454;
+    padding: 0 50px;
+    font-family: Poppins;
+}
+
+.topBar a {
+    color: #ffffff;
+    transition: .5s;
+    padding: 20px;
+    display: block;
+}
+
+.topBar a:hover {
+    color: #ffffff;
+    background-color: #ffffff;
+    color: #F75454;
+}
+
+@media only screen and (max-width: 600px) {
+    .topBar {
+        padding: 0 10px;
+    }
+}
+
+.main-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content .backDesign {
+    width: 70%;
+    min-height: 200px;
+    background-image: linear-gradient( 130deg, transparent 50%, #fff 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.backDesign
+{
+ margin-top: 14%;
+}
+.main-content .backDesign h1 {
+    font-size: 55px;
+}
+
+.product-content {
+   
+    margin-top:3% ;
+    width: 80%;
+    background-color: #ffffff;
+    height: auto;
+    padding: 30px;
+    border: 6px double rosybrown;
+    border-radius: 30px 15px 30px 15px !important;
+}
+
+.product-content .form-control {
+    border: 1px solid #ecedf3;
+}
+
+.product-content .form-control:focus {
+    box-shadow: none;
+    border: 1px solid lightgrey;
+}
+
+.category-content {
+    margin-top: 5%;
+    width: 70%;
+    max-height: 600px;
+    overflow: auto;
+    background-color: #ffffff;
+    height: min-content;
+    padding: 50px;
+    border: 6px double rosybrown;
+    border-radius: 30px 15px 30px 15px !important;
+}
+.msg_container
+{
+width: 100%;
+
+
+}
+.messages {
+    background-color: #e7e7e7;
+    margin: 1%;
+    padding: 20px;
+    border-radius: 20px;
+    border: 3px double grey;
+    display: block;
+    word-wrap: break-word;
+}
+
+
+.category-content .form-control:focus {
+    box-shadow: none;
+    border: 1px solid lightgrey;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-content .backDesign {
+        width: 60%;
+    }
+    .product-content {
+        width: 70%;
+        max-height: 500px;
+        overflow: auto;
+    }
+    .category-content {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .main-content .backDesign {
+        width: 90%;
+    }
+    .product-content {
+        width: 100%;
+        max-height: 550px;
+        overflow: auto;
+    }
+    .category-content {
+        width: 95%;
+    }
+    .stb
+    {
+        width: 100% !important;
+
+    }
+  
+}
+@media only screen and (max-width: 420px)
+{
+
+      .mbw
+    {
+        width: 25%;
+
+    }
+}
+
+.image_preview {
+    width: 100%;
+    min-height: 200px;
+    border: 1px solid #ecedf3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    color: grey;
+    overflow: hidden;
+}
+
+.image_preview img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.post_section {
+    max-height: 500px;
+    min-height: max-content;
+    overflow: auto;
+}
+
+.post {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    padding: 30px;
+    position: relative;
+}
+
+.post .actionBtns {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: .3s;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post:hover .actionBtns {
+    opacity: 1;
+}
+
+.post .actionBtns .btn {
+    transition: .5s;
+    color: #000000;
+    background-color: #fff;
+    border: 1px solid #fff;
+    display: block;
+}
+
+
+.post .actionBtns .btn:hover {
+    background-color: #ecedf3;
+}
+
+.post .actionBtns .btn:focus {
+    border: 1px transparent #ffff;
+    box-shadow: none;
+}
+
+/* .edit_post {
+    padding: 15px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+} */
+
+.edit_post .editImg {
+    height: 350px;
+    width: 100%;
+    position: relative;
+}
+
+.edit_post .editImg .cameraIcon {
+    position: absolute;
+    top: calc( 100% - 30px);
+    left: calc( 100% - 50px);
+    border-radius: 50%;
+    background-color: #ffffff;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    transition: .5s;
+}
+
+.edit_post .editImg .cameraIcon:hover {
+    background-color: #F75454;
+    color: #FFF6F7;
+    cursor: pointer;
+}
+.stb
+{
+    border-radius: 5px 15px 5px 15px !important;
+}
+.stb:hover
+{
+    background-color: #fff !important;
+    color: #000 !important;
+    box-shadow: 5px 10px 5px grey;
+
+}
+.viewcom
+{
+    border: 1px solid rgba(223, 106, 106, 0.548);
+    border-radius: 15px;
+    background-color: #FFF6F7;
+    
+}
+.viewcom:hover
+{
+    transition: all 0.4s;
+   background-color: #f7dbde
+
+}
+.mbw
+{
+    width: 15%;
+    border-radius: 0px 20px 20px 0px;
+}
