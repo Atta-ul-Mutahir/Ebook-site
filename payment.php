@@ -47,23 +47,26 @@ if( strlen( $_SESSION['LoginRole'] ) === 0 ) {
                 <form action="" method="POST">
                     <h2 class="mb-4">Payment Information</h2>
                     <div class="d-flex justify-content-center mb-3 px-0 mx-0">
-                        <input type="text" class="form-control m-0 mr-1 rounded-0" placeholder="First Name" value="<?php echo $info['user_first_name'] ?>" name="usrfname" />
-                        <input type="text" class="form-control m-0 ml-1 rounded-0" placeholder="Last Name" value="<?php echo $info['user_last_name'] ?>" name="usrlname" />
+                        <input type="text" class="form-control m-0 mr-1 rounded-pill" placeholder="First Name" value="<?php echo $info['user_first_name'] ?>" name="usrfname" />
+                        <input type="text" class="form-control m-0 ml-1 rounded-pill" placeholder="Last Name" value="<?php echo $info['user_last_name'] ?>" name="usrlname" />
                     </div>
-                    <input type="text" class="form-control rounded-0 mb-3" placeholder="Address" name="usraddress" />
-                    <input type="email" class="form-control rounded-0 mb-3" placeholder="Email" name="usremail" />
+                    <input type="text" class="form-control rounded-pill mb-3" placeholder="Address" name="usraddress" />
+                    <input type="email" class="form-control rounded-pill mb-3" placeholder="Email" name="usremail" />
                     <div class="d-flex justify-content-center mb-3 px-0 mx-0">
-                        <select class="form-control m-0 mr-1 rounded-0" placeholder="Payment Method" name="usrpaymethod">
+                        <select class="form-control m-0 mr-1 rounded-pill" placeholder="Payment Method" name="usrpaymethod">
                             <option value="">Payment Method</option>
                             <option value="CreditCard">Credit Card</option>
                             <option value="DD">DD</option>
                             <option value="Cheque">Cheque</option>
                             <option value="VP">VP</option>
                         </select>
-                        <input type="text" class="form-control m-0 ml-1 rounded-0" placeholder="Phone Number" name="usrphone" />
+                        <input type="text" class="form-control m-0 ml-1 rounded-pill" placeholder="Phone Number" name="usrphone" />
                     </div>
                     <div class="text-center left_side w-100">
-                        <button class="btn mt-3" type="submit" name="pay">Pay</button>
+                        <!-- <button class="btn mt-3" type="submit" name="pay">Pay</button> -->
+                        <button type="submit" name="pay" class="button button--nanuk button--text-thick button--text-upper button--size-s button--border-thick btn mt-3">
+                                    <span>P</span><span>a</span><span>y</span>
+                                </button>
                     </div>
                 </form>
             </div>

@@ -48,10 +48,7 @@ a:hover {
 }
 
 .navbar_container {
-    background: #ee9ca7;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #ffdde1, #ee9ca7);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #ffdde1, #ee9ca7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: linear-gradient(to right, #ff6277, #ff6277);
     padding: 0 100px !important;
     z-index: 999;
 }
@@ -302,6 +299,7 @@ box-shadow: rgba(0, 0, 0,0.5) 0px 20px 25px -5px;
     padding: 0 2em;
     overflow: hidden;
     background: #7986cb;
+    border-radius: 50px !important;
     -webkit-transition: background-color 0.3s;
     transition: background-color 0.3s;
   }
@@ -536,3 +534,4 @@ box-shadow: rgba(0, 0, 0,0.5) 0px 20px 25px -5px;
     height: 100%;
     object-fit: cover;
   }
+  

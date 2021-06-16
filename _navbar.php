@@ -1,7 +1,7 @@
 <div class="container-fluid navbar_container">
     <nav class="navbar navbar-expand-xl navbar-light">
-        <a class="navbar-brand" href="index.php">
-            <img src="images/logo2.PNG" width="170" />
+        <a class="nav" href="index.php">
+            <img src="\images\E-Books Air Books.Jpeg" width="170" />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -22,9 +22,9 @@
                     <a class="nav-link d-block px-4" href="competitions.php"><b>Competitions</b> </a>
                 </li>
             </ul>
-            <form class="btn-group">
+            <form class="btn-group rounded-pill">
                 <button class="btn" type="submit"><i class="las la-search"></i></button>
-                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                <input class="form-control " type="search" placeholder="Search" aria-label="Search">
             </form>
         </div>
     </nav>

@@ -42,9 +42,9 @@ if (strlen($_SESSION['LoginRole']) === 0 || $_SESSION['LoginRole'] === 'User') {
 
     <!-- main Div where all content are present -->
     <div class="main-content">
-        <div class="category-content">
+        <div class="category-content" style="max-height: 800px !important;margin-top: 2% !important;">
         <h1> <b>Discussion Box</b> </h1><hr>
-            <div class="msg_container pr-1" style="max-height: 500px; overflow: auto;"></div>
+            <div class="msg_container pr-1" style="max-height: auto; overflow: auto;"></div>
             <form action="" method="POST">
                 <div class="mt-3 btn-group w-100">
                     <textarea class="form-control" rows="1" placeholder="Type a Message" name="msg" ></textarea>

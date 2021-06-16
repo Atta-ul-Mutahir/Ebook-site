@@ -240,7 +240,7 @@
                             <h2 class="text-uppercase" style="color: #BEB4B4;">
                                 on order over $100
                             </h2>
-                            <button class="btn">View More</button>
+                            <button class="btn rounded-pill">View More</button>
                         </div>
                     </div>
                 </div>

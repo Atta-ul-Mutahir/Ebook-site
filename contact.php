@@ -36,8 +36,8 @@
                         <h1 class="mb-3">
                             Contact Us
                         </h1>
-                        <input type="text" class="form-control rounded-0 mb-3" placeholder="Your Name" name="senderName" />
-                        <textarea class="form-control mb-3 rounded-0" name="msg" placeholder="Your Message" style="height: 100px;"></textarea>
+                        <input type="text" class="form-control rounded-pill  mb-3" placeholder="Your Name" name="senderName" />
+                        <textarea class="form-control mb-3 " name="msg" placeholder="Your Message" style="height: 100px;"></textarea>
                         <button class="button button--nanuk button--text-thick button--text-upper button--size-s button--border-thick btn mt-3" type="submit" name="contact">
 						<span>S</span><span>u</span><span>b</span><span>m</span><span>i</span><span>t</span>
 					</button>
